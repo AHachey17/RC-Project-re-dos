@@ -1,0 +1,61 @@
+header{
+  clear: none;
+  height: 180px;
+  border: 2px solid black;
+}
+.logo{
+  width: 200px;
+  float: left;
+}
+.watchNow{
+  width: 99%;
+}
+section{
+  float: left;
+}
+
+.tip{
+  width: 14%;
+  margin-right: 800px;
+}
+main >section{
+  height: 800px;
+  border: 2px solid black;
+  width: 70%;
+  float: left;
+}
+.video{
+  width: 99%;
+  float: left;
+}
+.featuredStories{
+  width: 25%;
+  float: left;
+
+}
+main{
+  height: 800px;
+  border: 2px solid black;
+  width: 73%;
+  float: left;  
+}
+.subscriptions{
+  height: 800px;
+  border: 2px solid black;
+  width: 25%;
+  float: left;  
+
+}
+
+li{
+  float: left;
+  width: 14%;
+  height: 20px;
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+}
+
+
+
