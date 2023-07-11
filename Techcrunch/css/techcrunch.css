@@ -2,22 +2,79 @@ header{
   clear: none;
   height: 180px;
   border: 2px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
+header .header1{
+  display: flex;
+  flex-direction: column;
+  
+}
+/*need a better way to get this on the right side of the page*/
+header .header2{
+  margin-left: 40%;
+  width: 33%;
+}
+
 .logo{
   width: 200px;
-  float: left;
 }
+
+
+
+.tip{
+  margin-left: 40px;
+}
+.tip p{
+  color: grey;
+  font-size: 1.2rem;
+}
+.tip p a{
+  color: green;
+  text-decoration: none;
+}
+
+.socialMedia{
+  font-size: 1.2rem;
+  color: grey;
+}
+.socialMedia a{
+  text-decoration: none;
+  color: grey;
+  background-color: lightgray;
+  padding: 2%;
+  font-size: 0.8rem;
+}
+
+.msg .msgBtn{
+  color: white;
+  background-color: rgb(73, 72, 72);
+  height: 35px;
+  width: 115px;
+}
+
+.msg input{
+  height: 29px;
+  width: 165px;
+  color: green;
+}
+
+.msg input::placeholder{
+  color: green;
+}
+
+
+.msg .search{
+  height: 35px;
+}
+
 .watchNow{
   width: 99%;
 }
-section{
-  float: left;
-}
 
-.tip{
-  width: 14%;
-  margin-right: 800px;
-}
 main >section{
   height: 800px;
   border: 2px solid black;
@@ -47,14 +104,19 @@ main{
 
 }
 
+ul{
+  display: flex;
+}
+
 li{
-  float: left;
-  width: 14%;
-  height: 20px;
   list-style-type: none;
+  margin-right: 5%;
 }
 li a{
   text-decoration: none;
+  margin: 5%;
+  font-size: 1.4rem;
+  color: rgb(35, 34, 34);
 }
 
 
