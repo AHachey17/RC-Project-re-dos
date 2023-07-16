@@ -1,7 +1,7 @@
+/*header*/
 header{
   clear: none;
   height: 180px;
-  border: 2px solid black;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -14,16 +14,9 @@ header .header1{
   
 }
 /*need a better way to get this on the right side of the page*/
-header .header2{
-  margin-left: 40%;
-  width: 33%;
-}
-
 .logo{
   width: 200px;
 }
-
-
 
 .tip{
   margin-left: 40px;
@@ -35,6 +28,27 @@ header .header2{
 .tip p a{
   color: green;
   text-decoration: none;
+}
+
+
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style-type: none;
+  margin-right: 5%;
+}
+nav ul li a{
+  text-decoration: none;
+  margin: 5%;
+  font-size: 1.4rem;
+  color: rgb(35, 34, 34);
+}
+
+/*header2*/
+header .header2{
+  margin-left: 40%;
+  width: 33%;
 }
 
 .socialMedia{
@@ -71,31 +85,122 @@ header .header2{
   height: 35px;
 }
 
-.watchNow{
-  width: 99%;
+/*sub-bar after the nav*/
+.bar{
+  background: green;
+  height: 50px;
 }
 
-main >section{
-  height: 800px;
-  border: 2px solid black;
-  width: 70%;
-  float: left;
+.bar div{
+  margin: -24px 0px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.video{
-  width: 99%;
-  float: left;
-}
-.featuredStories{
-  width: 25%;
-  float: left;
 
+.bar div a{
+  text-decoration: none;
+  color: white;
 }
+
+.bar div h4{
+  font-family: 'Raleway', sans-serif;
+  margin-right: 5px;
+}
+
+.bar div h5{
+  font-family: 'Roboto', sans-serif;
+  margin-right: 5px;
+}
+
+.bar div a{
+  font-weight: bold;
+}
+
+/*main content*/
+
 main{
   height: 800px;
   border: 2px solid black;
   width: 73%;
   float: left;  
 }
+
+.videoSection{
+  height: 800px;
+  border: 2px solid black;
+  float: left;
+  width: 65%;
+}
+
+main .videoSection div{
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+}
+
+
+main .videoSection div .mainTitle1{
+  color: rgb(35, 34, 34);
+  margin-right: 5px;
+}
+main .videoSection div .mainTitle2{
+  color: green;
+}
+
+/*mock video*/
+.watchNow{
+  width: 99%;
+}
+.video{
+  width: 99%;
+  float: left;
+}
+
+main .videoSection p{
+  color: lightgrey;
+  font-style: italic;
+  font-size: 1.2rem;
+
+}
+
+/*middle main section*/
+.featuredStories{
+  width: 29%;
+  float: left;
+
+}
+
+.featuredStories h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  color: rgb(35, 34, 34);
+  margin-bottom: 7px;
+}
+
+.featuredStories div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: -30px;
+  font-size: 1.5rem;
+}
+
+.featuredStories div h6 span{
+  color: lightgrey;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.featuredStories div img{
+  margin-right: 5px;
+}
+
 .subscriptions{
   height: 800px;
   border: 2px solid black;
@@ -104,20 +209,10 @@ main{
 
 }
 
-ul{
-  display: flex;
-}
 
-li{
-  list-style-type: none;
-  margin-right: 5%;
-}
-li a{
-  text-decoration: none;
-  margin: 5%;
-  font-size: 1.4rem;
-  color: rgb(35, 34, 34);
-}
+
+
+
 
 
 
