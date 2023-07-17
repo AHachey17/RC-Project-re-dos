@@ -1,3 +1,7 @@
+/*{
+  background: lightgray
+}*/
+
 /*header*/
 header{
   clear: none;
@@ -123,15 +127,13 @@ header .header2{
 /*main content*/
 
 main{
-  height: 800px;
-  border: 2px solid black;
+  height: 510px;
   width: 73%;
   float: left;  
 }
 
 .videoSection{
   height: 800px;
-  border: 2px solid black;
   float: left;
   width: 65%;
 }
@@ -203,10 +205,72 @@ main .videoSection p{
 
 .subscriptions{
   height: 800px;
-  border: 2px solid black;
   width: 25%;
-  float: left;  
+  float: left;
+}
 
+.subscriptions h2{
+  color: gray;
+  font-family: 'Inter', sans-serif;
+}
+
+.subscriptions h2 a{
+  text-decoration: none;
+  color: green;
+}
+
+.subscriptions h3{
+  background: green;
+  color: white;
+  text-align: center;
+  height: 30px;
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.subscriptions ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.subscriptions form{
+  display: flex;
+  flex-direction: column;
+}
+
+.subscriptions form li{
+}
+
+.subscriptions form label{
+  font-weight: bold;
+}
+
+.subscriptions form p{
+  padding-left: 30px;
+  color: grey;
+  margin-top: 5px;
+}
+
+
+.email{
+  margin: 15px 0px 15px 15px;
+  width: 200px;
+  height: 40px;
+}
+
+.subscribe{
+  width: 100px;
+  height: 44px;
+  background: green;
+  color: white;
+}
+
+.newsletters{
+  background: white;
+  color: grey;
+  border: none;
+  height: 45px;
+  margin-left: 95px;
 }
 
 
